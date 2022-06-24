@@ -5,12 +5,18 @@ GEM
       concurrent-ruby
       ruby-dbus
     concurrent-ruby (1.1.8)
+    influxdb-client (2.6.0)
     rexml (3.2.5)
     ruby-dbus (0.16.0)
 
 PLATFORMS
   armv7l-linux-eabihf
+  x86_64-linux
 
 DEPENDENCIES
   ble
+  influxdb-client
   rexml
+
+BUNDLED WITH
+   2.3.15

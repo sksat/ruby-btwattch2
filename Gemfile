@@ -4,3 +4,4 @@ source "https://rubygems.org"
 
 gem "ble"
 gem "rexml"
+gem "influxdb-client"
