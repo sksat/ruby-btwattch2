@@ -3,7 +3,7 @@ require "time"
 
 module BTWATTCH2
   class CLI
-    attr_reader :index, :addr, :interval, :switch, :time
+    attr_accessor :index, :addr, :interval, :switch, :time
     attr_accessor :conn
 
     def initialize
